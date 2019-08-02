@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+main {
+  width: 100%;
+  background: #fff;
+  color: #5a5252;
+  text-align: center; }
+  main h1 {
+    background: #5a5252;
+    color: #4ac7c2;
+    padding: 1rem; }
+
+#rps {
+  padding: 0; }
+  #rps .score-board {
+    margin: 1rem auto;
+    border: 3px solid #5a5252;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 40px;
+    padding: 1rem 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; }
+    #rps .score-board .badge {
+      background: #af160d;
+      color: #fff;
+      font-size: 1rem;
+      padding: 2px 10px;
+      width: 3rem;
+      border-radius: 4px; }
+    #rps .score-board #user-label {
+      position: absolute;
+      top: 40px;
+      left: -25px; }
+    #rps .score-board #ai-label {
+      position: absolute;
+      top: 40px;
+      right: -25px; }
+  #rps .result {
+    font-size: 35px;
+    font-weight: 999; }
+  #rps .choices {
+    margin-top: 3rem;
+    text-align: center; }
+    #rps .choices .choice {
+      border: 1px solid white;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0 0.5rem;
+      padding: 1rem;
+      transition: all 0.75s ease-out; }
+      #rps .choices .choice:hover {
+        background: rgba(57, 185, 180, 0.5);
+        cursor: pointer; }
+    #rps .choices .green-glow {
+      border: 1px solid greenyellow;
+      box-shadow: 0 0 10px 0.5rem #c8e49f; }
+    #rps .choices .red-glow {
+      border: 1px solid red;
+      box-shadow: 0 0 10px 0.5rem #dd9f9f; }
+    #rps .choices .grey-glow {
+      border: 1px solid grey;
+      box-shadow: 0 0 10px 0.5rem #dbd5d5; }
+  #rps #message {
+    font-size: 35px;
+    font-weight: 500; }
+
+.main-footer {
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem;
+  background: #3f3a3a;
+  color: #ffffff;
+  height: 60px; }
